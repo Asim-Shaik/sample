@@ -6,10 +6,10 @@ import "./navbar.css";
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-button;
+
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
+console.log(button)
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -69,6 +69,7 @@ button;
                 className="nav-links"
                 onClick={closeMobileMenu}
                 smooth="true"
+
               >
                 Jobs
               </Link>
