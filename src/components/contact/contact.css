@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 30rem;
+  max-width: 25rem;
   border-radius: 1rem;
   flex-direction: column;
   background-color: white;
@@ -20,7 +20,7 @@
 .i {
   height: 3rem;
   float: left;
-  width: 25rem;
+  width: 20rem;
   margin-bottom: 1rem;
   font-size: 20px;
   border: 1px solid lightblue;
@@ -31,7 +31,7 @@
 .b {
   letter-spacing: 0.2rem;
   float: left;
-  width: 25rem;
+  width: 20rem;
   height: 3rem;
   background-color: rgb(12, 143, 143);
   color: white;
@@ -41,4 +41,16 @@
 }
 .contact-title {
   margin-top: 2rem;
+}
+@media screen and (max-width: 440px) {
+  .control {
+    max-width: 30rem;
+  }
+
+  .i {
+    max-width: 25rem;
+  }
+  .b {
+    max-width: 25rem;
+  }
 }
