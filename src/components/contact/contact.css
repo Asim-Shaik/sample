@@ -1,0 +1,44 @@
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  background-color: white;
+}
+.c {
+  background: lightgrey;
+}
+.contact-form {
+  border-radius: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  max-width: 25rem;
+}
+.i {
+  height: 3rem;
+  float: left;
+  width: 25rem;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  border: 1px solid lightblue;
+  border-radius: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.b {
+  letter-spacing: 0.2rem;
+  float: left;
+  width: 25rem;
+  height: 3rem;
+  background-color: rgb(12, 143, 143);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+.contact-title {
+  margin-top: 2rem;
+}

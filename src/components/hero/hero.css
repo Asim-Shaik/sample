@@ -1,0 +1,110 @@
+.hero {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(12, 4, 54) 0%, rgb(56, 19, 143) 100%);
+  margin-bottom: 20px;
+}
+.hero-top {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.hero-title {
+  color: white;
+  letter-spacing: 0.2rem;
+}
+.hero-desc {
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  max-width: 20rem;
+  border-radius: 0.2rem;
+}
+.form {
+  margin: 0;
+  border-radius: 1rem;
+  width: 40rem;
+}
+.form-input {
+  height: 3rem;
+  float: left;
+  width: 90vw;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  border: 1px solid lightblue;
+  border-radius: 0.2rem;
+}
+.form-input::-webkit-input-placeholder {
+  text-align: center;
+  text-transform: capitalize;
+}
+.form-input::-moz-placeholder {
+  text-align: center;
+  text-transform: capitalize;
+}
+.form-input:-ms-input-placeholder {
+  text-align: center;
+  text-transform: capitalize;
+}
+.form-input::-ms-input-placeholder {
+  text-align: center;
+  text-transform: capitalize;
+}
+.form-input::placeholder {
+  letter-spacing: 0.2rem;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+.form-btn {
+  letter-spacing: 0.2rem;
+  float: left;
+  width: 90vw;
+  height: 3rem;
+  background-color: rgb(12, 143, 143);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+@media screen and (min-width: 780px) {
+  .hero {
+    flex-direction: row-reverse;
+    flex-flow: row-reverse;
+  }
+  .hero-top {
+    flex: 3;
+    width: 20rem;
+    margin-right: 2rem;
+    margin-left: 0rem;
+  }
+  .form-control {
+    flex: 6;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    max-width: 30rem;
+
+    background: white;
+  }
+  .form {
+    margin: 2rem;
+  }
+  .form-input {
+    width: 25rem;
+  }
+  .form-btn {
+    width: 25rem;
+  }
+  .hero-desc {
+    font-size: 2rem;
+  }
+}

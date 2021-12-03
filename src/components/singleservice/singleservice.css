@@ -1,0 +1,31 @@
+.single-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-container {
+  text-align: center;
+  width: 50rem;
+}
+.picture {
+  max-width: 40rem;
+  margin: auto;
+}
+.informative {
+  max-width: 40rem;
+  margin: auto;
+}
+.single-title {
+  margin: 2rem;
+}
+.icon {
+  color: black;
+  cursor: pointer;
+  margin: 2rem;
+  font-size: 2rem;
+}
