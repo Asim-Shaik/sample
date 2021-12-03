@@ -6,8 +6,8 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./app.css";
-import Webinar from "./components/webinar/Webinar";
-import Singleservice from "./components/singleservice/Singleservice";
+// import Webinar from "./components/webinar/Webinar";
+// import Singleservice from "./components/singleservice/Singleservice";
 function App() {
   return (
     <div>
