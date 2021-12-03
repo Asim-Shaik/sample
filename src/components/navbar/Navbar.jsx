@@ -6,7 +6,7 @@ import "./navbar.css";
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-
+button;
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
